@@ -77,9 +77,18 @@ font-family: 'Roboto', sans-serif;
 /* we are gamer style  */
 .weGamer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 40px 120px;
 }
 .weGamer div > img{
-    /* width: 100%; */
+    width: 600px;
+}
+.weGamer div > p{
+    color: #534C64;
+}
+.weGamer2nddiv{
+    margin-right: 80px;
+    width: 300px;
+    text-align: end;
 }
