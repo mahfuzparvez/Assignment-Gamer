@@ -2,6 +2,7 @@
     font-family: 'Anton', sans-serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
+margin: 0;
 }
 /* shared style */
 .sharedText{
@@ -126,3 +127,106 @@ font-family: 'Roboto', sans-serif;
     cursor: pointer;
     opacity: 60%;
 }
+/* Play Games Online Anywhere, Anytime */
+.playgames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.playgames div > h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.playgames div h1 > span{
+    background-image: linear-gradient(180deg, #0452fa, #f7215d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.playgames div p{
+    color: #534C64;
+}
+.playimage{
+    margin-right: 180px;
+}
+.firstimage{
+    width: 400px;
+}
+.secondimage{
+    margin-left: 290px;
+    margin-top: -150px;
+    width: 200px;
+}
+/* career style */
+.career{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f709a6;
+    color: white;
+    margin-bottom: 80px;
+}
+.career div > img{
+    width: 500px;
+}
+.textdiv{
+    width: 400px;
+    padding: 30px 0;
+}
+.subdivofcareer{
+    display: flex;
+}
+.subdiv2nd{
+    text-align: end;
+}
+.seeAllbtn{
+    background-color: white;
+    color: #f709a6;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+}
+/* icons style */
+.icons{
+    display: flex;
+    margin-right: 30px;
+}
+.icondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons > h4{
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.icons:hover{
+    border: 1px solid #f709a6;
+    color: #f709a6;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+/* footer style */
+.footer{
+    height: 350px;
+    color: white;
+    background-color: #0B0223;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.footerlogo img{
+    margin-right: 15px;
+}
+.footertext1{
+    text-align: center;
+    padding-top: 80px;
+    margin-left: -150px;
+}
+.footertext1 > i{
+    margin-right: 20px;
+}
+
